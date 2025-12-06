@@ -1,9 +1,42 @@
-# React TypeScript Starter Pack
+## To-do App — task management application
+This project presents a simple task management application that helps users organize their daily tasks. With a simple interface, the app lets you quickly add new tasks, mark them as completed, edit their titles , and remove them when no longer needed. You can also filter your list to see all tasks, only active ones, or only those already completed.
+## 🚀 Live Preview
+Live Demo: [Demo](https://vtmnkmarta.github.io/to-do-app/)
 
-To use this template click `Use this template`
+## 🛠️ Technologies Used
+- React
+- TypeScript
+- Vite
+- Sass (SCSS)
+- Git
+- GitHub
 
-### Available Scripts
+## 📦 Getting Started
+Clone the repository:
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+```bash
+git clone https://github.com/vtmnkmarta/to-do-app.git
+cd to-do-app
+```
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+Run the project locally:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+## ✅ Features
+- Create new todos with a title and optional details
+- Mark todos as complete / incomplete
+- Filter todos by status (all / active / completed)
+- Edit and delete todos
